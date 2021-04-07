@@ -1,13 +1,83 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: rgb(95, 194, 95);
+  font-size: 1.8em;
+}
+.navbar .Links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4em;
+}
+.navbar a:hover {
+  color: rgb(95, 194, 95);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.B1, .B2{
+ 
+  border: none;
+  background: rgb(67, 139, 61);
+  border-radius: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
 }
+.B1 a{
+ 
+  color: white;
+}
+.B2 {
+  margin-top: 1em;
+  color: white;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: rgb(95, 194, 95);
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
