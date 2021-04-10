@@ -7,6 +7,12 @@
   font-family: "Quicksand";
   color: #333;
 }
+.Loading, .Error{
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(67, 139, 61);
+}
 .navbar {
   padding: 20px;
   display: flex;
@@ -29,7 +35,7 @@
   font-size: 1.4em;
 }
 .navbar a:hover {
-  color: rgb(95, 194, 95);
+  color: rgb(235, 250, 194);
 }
 .content {
   max-width: 600px;

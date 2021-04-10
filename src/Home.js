@@ -1,35 +1,19 @@
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Bloglist from "./Bloglist"
+import useFetch from "./useFetch"   //Yehh compoent nhi hai 
 
+
+//Now using this costum hook so that we can use the fetch logic for the data wrapped in endpoint shown below
+//This means grab the data but call it blogs in this contects or in this component
 const Home = () => {
-    const [blogs,setBlogs]=useState([
-        { title: 'My new website', body: 'lorem ipsum...', author: 'mario', id: 1 },
-        { title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', id: 2 },
-        { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3 }
-
-
-
-    ]
-    )  //We gonna set my blogs variable to an array of blogs blogs are of list type    
-    //So I passed the parameter list of blogs to the BLoglist component so that we use it to write things
-    //So in second Bloglist will pass an different parameter.....By filtering mario's blogs only
-    //blogs naam ki array mai jitne bhi blogs hai uska author dhekenge
-    //Any blog list we created we send it as an blog type variable only
-
-    const blogDelete = (id) =>{  //When the function is defined and parameter is passed then we use the {}
-        const newBlog = blogs.filter((blog)=>(blog.id !== id)
-            ) //So we will make an newblogs by filtering the blog and deleting the required one
-
-        setBlogs(newBlog);  //We should use the variable that changes the state
-        }
+    const {data, isloading, err}= useFetch(' http://localhost:8000/blogs')
+    
     return (
         <div className="home">
-            <Bloglist blogs={blogs}  title="All blogs" blogDelete={blogDelete}/>  
-            <Bloglist blogs={blogs.filter((blog)=>(
-               blog.author==="mario" 
-            ))}  title="Mario's blogs" blogDelete={blogDelete}/>  
-
+            {err  &&   <div className="Error">{ err }</div>}
+            {isloading   && <div className="Loading">Loading blogs!!!</div> }
+            {data && <Bloglist blogs={data}  title="All blogs"/>  }      
         </div>
       );
 }

@@ -1,0 +1,26 @@
+{
+    "blogs":[
+        {
+            "title":"The healthy benefites of using Amla",
+            "body":"Amla berries are rich in vitamin A, which is key to improving eye health. Vitamin A not only improves vision, but it also may lower the risk of age-related macular degeneration. Amla's vitamin C content aids in eye health by fighting bacteria, which can help to protect your eyes from conjunctivitis (pink eye) and other infections. ",
+            "author":"Rishi Raj Tiwari",
+            "id":1
+            
+        },
+        {
+            
+            "title":"The healthy benefites of using Tulsi",
+            "body":"Tulsi has been found to protect organs and tissues against chemical stress from industrial pollutants and heavy metals, and physical stress from prolonged physical exertion, ischemia, physical restraint and exposure to cold and excessive noise. Tulsi has also been shown to counter metabolic stress through normalization of blood glucose, blood pressure and lipid levels, and psychological stress through positive effects on memory and cognitive function and through its anxiolytic and anti-depressant properties. Tulsi's broad-spectrum antimicrobial activity, which includes activity against a range of human and animal pathogens, suggests it can be used as a hand sanitizer, mouthwash and water purifier as well as in animal rearing, wound healing, the preservation of food stuffs and herbal raw materials and traveler's health. Cultivation of tulsi plants has both spiritual and practical significance that connects the grower to the creative powers of nature, and organic cultivation offers solutions for food security, rural poverty, hunger, environmental degradation and climate change. The use of tulsi in daily rituals is a testament to Ayurvedic wisdom and provides an example of ancient knowledge offering solutions to modern problems.",
+            "author":"Kunal Singh",
+            "id":2
+        },
+        {
+            "title":"Plant protein",
+            "body":"Proteins are made up of amino acids and there are 20 of them in total. The human body is able to synthesize or create 11 of them – the remaining 9 are known as “essential amino acids” because they must come from your diet. A complete protein is one that contains all 9 of those essential amino acids and there are several plant foods that fit this description such as quinoa, buckwheat, hemp, and soy",
+            "author":"Deepak Singht Rajput",
+            "id":3
+        }
+
+
+    ]
+}
