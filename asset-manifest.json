@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Living/static/css/main.2e05d7e5.chunk.css",
+    "main.js": "/Living/static/js/main.8a098992.chunk.js",
+    "main.js.map": "/Living/static/js/main.8a098992.chunk.js.map",
+    "runtime-main.js": "/Living/static/js/runtime-main.d3386c9c.js",
+    "runtime-main.js.map": "/Living/static/js/runtime-main.d3386c9c.js.map",
+    "static/js/2.3cd8c9e1.chunk.js": "/Living/static/js/2.3cd8c9e1.chunk.js",
+    "static/js/2.3cd8c9e1.chunk.js.map": "/Living/static/js/2.3cd8c9e1.chunk.js.map",
+    "index.html": "/Living/index.html",
+    "static/css/main.2e05d7e5.chunk.css.map": "/Living/static/css/main.2e05d7e5.chunk.css.map",
+    "static/js/2.3cd8c9e1.chunk.js.LICENSE.txt": "/Living/static/js/2.3cd8c9e1.chunk.js.LICENSE.txt",
+    "static/media/DetailList.af716f53.png": "/Living/static/media/DetailList.af716f53.png",
+    "static/media/HM.bd3f75fe.png": "/Living/static/media/HM.bd3f75fe.png",
+    "static/media/ProteinG.4b218be4.png": "/Living/static/media/ProteinG.4b218be4.png",
+    "static/media/allblog.118f1801.png": "/Living/static/media/allblog.118f1801.png",
+    "static/media/details1.77de52d4.png": "/Living/static/media/details1.77de52d4.png",
+    "static/media/details2.243c1d78.png": "/Living/static/media/details2.243c1d78.png",
+    "static/media/pinea.5f338e1f.png": "/Living/static/media/pinea.5f338e1f.png",
+    "static/media/weight1.af6cda7b.png": "/Living/static/media/weight1.af6cda7b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3386c9c.js",
+    "static/js/2.3cd8c9e1.chunk.js",
+    "static/css/main.2e05d7e5.chunk.css",
+    "static/js/main.8a098992.chunk.js"
+  ]
+}
